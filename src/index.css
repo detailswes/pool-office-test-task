@@ -11,13 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-._loading_overlay_content {
-  display: flex;
-  align-items: center;
-  color: #000;
-  font-size: 12px;
-  margin: 37px 0 0 0 !important;
-}
-._loading_overlay_content svg {
-  margin-right: 6px;
-}
