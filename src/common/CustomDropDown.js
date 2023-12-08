@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect } from "react";
 import styles from "./common.module.css";
 
 const CustomDropDown = ({
@@ -9,7 +9,6 @@ const CustomDropDown = ({
   setValue,
   label,
 }) => {
-    
   useEffect(() => {
     if (options?.length > 0) {
       setValue(name, options?.[0]?.title);
